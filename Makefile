@@ -1,3 +1,6 @@
+install:
+  Rscript -e "renv::restore()"
+
 Final_project.html: Final_project.Rmd output/table1.RDS output/figure1.RDS
 	Rscript code/render_report.R
 

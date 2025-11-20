@@ -1,5 +1,13 @@
 # Final project - Hypertension screening Pilot: A process evaluation 
 
+#Instructions for restoring the package enviroment
+This project uses renv to manage R packages
+
+To restore the environment, run: 
+```bash
+make install
+```
+
 ## Overview
 This project evaluates a pilot hypertension screening program. The goals are:
 1. Identify barriers and facilitators to participation.
